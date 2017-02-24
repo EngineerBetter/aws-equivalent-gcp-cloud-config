@@ -6,7 +6,7 @@ Pull requests for additional types are most welcome.
 
 ## Example
 
-```
+```yaml
 - name: t2.micro
   cloud_properties:
     machine_type: f1-micro

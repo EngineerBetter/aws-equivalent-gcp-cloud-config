@@ -1,0 +1,209 @@
+vm_types:
+- name: m3.medium
+  cloud_properties:
+    cpu: 1
+    ram: 3840
+    root_disk_size_gb: 10
+    root_disk_type: pd-ssd
+    ephemeral_external_ip: true
+    preemptible: true
+- name: m3.large
+  cloud_properties:
+    cpu: 2
+    ram: 7680
+    root_disk_size_gb: 10
+    root_disk_type: pd-ssd
+    ephemeral_external_ip: true
+    preemptible: true
+- name: m3.xlarge
+  cloud_properties:
+    cpu: 4
+    ram: 15360
+    root_disk_size_gb: 10
+    root_disk_type: pd-ssd
+    ephemeral_external_ip: true
+    preemptible: true
+- name: m3.2xlarge
+  cloud_properties:
+    cpu: 8
+    ram: 30750
+    root_disk_size_gb: 10
+    root_disk_type: pd-ssd
+    ephemeral_external_ip: true
+    preemptible: true
+- name: m4.large
+  cloud_properties:
+    cpu: 2
+    ram: 8192
+    root_disk_size_gb: 10
+    root_disk_type: pd-ssd
+    ephemeral_external_ip: true
+    preemptible: true
+- name: m4.xlarge
+  cloud_properties:
+    cpu: 4
+    ram: 16384
+    root_disk_size_gb: 10
+    root_disk_type: pd-ssd
+    ephemeral_external_ip: true
+    preemptible: true
+- name: m4.2xlarge
+  cloud_properties:
+    cpu: 8
+    ram: 32768
+    root_disk_size_gb: 10
+    root_disk_type: pd-ssd
+    ephemeral_external_ip: true
+    preemptible: true
+- name: m4.4xlarge
+  cloud_properties:
+    cpu: 16
+    ram: 65536
+    root_disk_size_gb: 10
+    root_disk_type: pd-ssd
+    ephemeral_external_ip: true
+    preemptible: true
+- name: m4.10xlarge
+  cloud_properties:
+    cpu: 40
+    ram: 163840
+    root_disk_size_gb: 10
+    root_disk_type: pd-ssd
+    ephemeral_external_ip: true
+    preemptible: true
+- name: c3.large
+  cloud_properties:
+    cpu: 2
+    ram: 3840
+    root_disk_size_gb: 10
+    root_disk_type: pd-ssd
+    ephemeral_external_ip: true
+    preemptible: true
+- name: c3.xlarge
+  cloud_properties:
+    cpu: 4
+    ram: 7680
+    root_disk_size_gb: 10
+    root_disk_type: pd-ssd
+    ephemeral_external_ip: true
+    preemptible: true
+- name: c3.2xlarge
+  cloud_properties:
+    cpu: 8
+    ram: 15360
+    root_disk_size_gb: 10
+    root_disk_type: pd-ssd
+    ephemeral_external_ip: true
+    preemptible: true
+- name: c3.4xlarge
+  cloud_properties:
+    cpu: 16
+    ram: 30720
+    root_disk_size_gb: 10
+    root_disk_type: pd-ssd
+    ephemeral_external_ip: true
+    preemptible: true
+- name: c3.8xlarge
+  cloud_properties:
+    cpu: 32
+    ram: 61440
+    root_disk_size_gb: 10
+    root_disk_type: pd-ssd
+    ephemeral_external_ip: true
+    preemptible: true
+
+- name: c4.large
+  cloud_properties:
+    cpu: 2
+    ram: 3840
+    root_disk_size_gb: 10
+    root_disk_type: pd-ssd
+    ephemeral_external_ip: true
+    preemptible: true
+- name: c4.xlarge
+  cloud_properties:
+    cpu: 4
+    ram: 7680
+    root_disk_size_gb: 10
+    root_disk_type: pd-ssd
+    ephemeral_external_ip: true
+    preemptible: true
+- name: c4.2xlarge
+  cloud_properties:
+    cpu: 8
+    ram: 15360
+    root_disk_size_gb: 10
+    root_disk_type: pd-ssd
+    ephemeral_external_ip: true
+    preemptible: true
+- name: c4.4xlarge
+  cloud_properties:
+    cpu: 16
+    ram: 30720
+    root_disk_size_gb: 10
+    root_disk_type: pd-ssd
+    ephemeral_external_ip: true
+    preemptible: true
+- name: c4.8xlarge
+  cloud_properties:
+    cpu: 36
+    ram: 61440
+    root_disk_size_gb: 10
+    root_disk_type: pd-ssd
+    ephemeral_external_ip: true
+    preemptible: true
+
+- name: r3.large
+  cloud_properties:
+    cpu: 2
+    ram: 13312
+    root_disk_size_gb: 10
+    root_disk_type: pd-ssd
+    ephemeral_external_ip: true
+    preemptible: true
+- name: r3.xlarge
+  cloud_properties:
+    cpu: 4
+    ram: 26624
+    root_disk_size_gb: 10
+    root_disk_type: pd-ssd
+    ephemeral_external_ip: true
+    preemptible: true
+- name: r3.2xlarge
+  cloud_properties:
+    cpu: 8
+    ram: 53248
+    root_disk_size_gb: 10
+    root_disk_type: pd-ssd
+    ephemeral_external_ip: true
+    preemptible: true
+- name: r3.4xlarge
+  cloud_properties:
+    cpu: 16
+    ram: 106496
+    root_disk_size_gb: 10
+    root_disk_type: pd-ssd
+    ephemeral_external_ip: true
+    preemptible: true
+- name: r3.8xlarge
+  cloud_properties:
+    cpu: 32
+    ram: 212992
+    root_disk_size_gb: 10
+    root_disk_type: pd-ssd
+    ephemeral_external_ip: true
+    preemptible: true
+- name: t2.micro
+  cloud_properties:
+    machine_type: f1-micro
+    root_disk_size_gb: 10
+    root_disk_type: pd-ssd
+    ephemeral_external_ip: true
+    preemptible: true
+- name: t2.small
+  cloud_properties:
+    machine_type: g1-small
+    root_disk_size_gb: 10
+    root_disk_type: pd-ssd
+    ephemeral_external_ip: true
+    preemptible: true
